@@ -64,8 +64,8 @@ def get_kernel_config_triton(m, n, k, routing_data):
     xcd_swizzle = num_xcds
     w_cache_modifier = ".cg" if block_m <= 32 else None
     arch = get_arch()
-    num_stages = 1 if arch == "gfx950" else 2
-    split_k = 1
+    num_stages = 2
+    split_k = 4 if (arch == "gfx950" and block_m == 16) else 1
     block_k = 256
 
     if block_m == 16:
