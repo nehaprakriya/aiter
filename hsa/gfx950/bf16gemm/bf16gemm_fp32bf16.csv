@@ -23,3 +23,5 @@ _ZN5aiter39bf16gemm_fp32bf16_tn_32x64_splitk_cleanE,bf16gemm_fp32bf16_tn_32x64_s
 _ZN5aiter39bf16gemm_fp32bf16_tn_48x64_splitk_cleanE,bf16gemm_fp32bf16_tn_48x64_splitk_clean.co,1,48,64,0,0,1,64,1
 _ZN5aiter39bf16gemm_fp32bf16_tn_64x64_splitk_cleanE,bf16gemm_fp32bf16_tn_64x64_splitk_clean.co,1,64,64,0,0,1,64,1
 _ZN5aiter39bf16gemm_fp32bf16_tn_80x64_splitk_cleanE,bf16gemm_fp32bf16_tn_80x64_splitk_clean.co,1,80,64,0,0,1,64,1
+_ZN5aiter50bf16gemm_fp32bf16_tn_64x32_bk128_kimik3_m64_gfx950E,bf16gemm_fp32bf16_tn_64x32_bk128_kimik3_m64_gfx950.co,1,64,32,0,0,0,128,0
+_ZN5aiter52bf16gemm_fp32bf16_tn_128x64_bk128_kimik3_m128_gfx950E,bf16gemm_fp32bf16_tn_128x64_bk128_kimik3_m128_gfx950.co,1,128,64,0,0,0,128,0
